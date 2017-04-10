@@ -1,0 +1,115 @@
+body {
+	background-color: #232323; 
+    margin: 0; 
+    font-family: "Montserrat", "Avenir";
+}
+
+.clear{
+    clear: both;
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+    border-radius: 50%;
+    border-bottom-style:outset;
+    border-top-color: aliceblue;
+    transition: background 0.9s;
+    -webkit-transition:background 0.9s;
+    -moz-transition:background 0.9s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+/* #instruction{
+	margin: 20px auto;
+	max-width: 600px;
+    background-color: red; 
+}*/
+
+h1{
+	color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+h3{
+    color: white;
+    text-align: center;
+    background:gold;
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+h2{
+    color: white;
+    text-align: center;
+     margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding: 20px 0;
+    
+}
+p{
+    color:black;
+    text-align: center;
+    background: white;
+    margin: 0;
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+
+
+
+#colorDisplay{
+font-size: 200%;
+}
+
+.selected{
+color: white;
+    background: steelblue;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.8s;
+     -webkit-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+}
